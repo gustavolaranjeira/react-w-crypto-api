@@ -9,12 +9,12 @@ import News from './Endpoints/News';
 
 const ApiTest = () => {
   return (
-    <div>
+    <div style={{ marginTop: '3rem' }}>
       <Ping />
       <Trending />
+      <Marketcap />
       <Companies />
       <Exchangerates />
-      <Marketcap />
       <News />
     </div>
   );

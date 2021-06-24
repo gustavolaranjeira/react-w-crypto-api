@@ -46,9 +46,11 @@ const Marketcap = () => {
           {Object.keys(marketcap).map((coin, index) => (
             <>
               <li>{Object.keys(marketcap)[index]}</li>
-              <li style={{ listStyle: 'none' }}>
-                {Object.values(marketcap)[index]}
-              </li>
+              <ul style={{ padding: '0px', marginTop: '0px' }}>
+                <li style={{ listStyle: 'none' }}>
+                  {Object.values(marketcap)[index]}
+                </li>
+              </ul>
             </>
           ))}
         </ol>
